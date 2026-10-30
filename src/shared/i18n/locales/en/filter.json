@@ -1,0 +1,16 @@
+{
+	"openButton": "Open filters",
+	"title": "Filter",
+	"close": "Close",
+	"apply": "Apply",
+	"clearAll": "Clear all parameters",
+	"loading": "Loading filters…",
+	"error": "Failed to load filters",
+	"retry": "Try again",
+	"selectedTitle": "Selected filters",
+	"confirm": {
+		"title": "Do you want to apply new filter",
+		"useOld": "Use old filter",
+		"applyNew": "Apply new filter"
+	}
+}
