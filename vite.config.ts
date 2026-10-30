@@ -8,6 +8,10 @@ import tsconfigPaths from 'vite-tsconfig-paths'
 
 export default defineConfig(() => ({
 	root: '.',
+	base:
+		process.env.GITHUB_ACTIONS === 'true'
+			? '/wwt-frontend-filter.github.io/'
+			: '/',
 
 	server: {
 		port: 3000,
